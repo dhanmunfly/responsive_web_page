@@ -1,6 +1,7 @@
 .top-bg-image{
     background-image: url("../images/bg.jpg");
-    height: 65vh;
+    height: 94vh;
+    position: relative;
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,5 +9,65 @@
 .navbar-verticalLine {
    border-left: 1px solid white;
    /* height: 2vh; */
+   vertical-align: -webkit-baseline-middle;
    vertical-align: -moz-middle-with-baseline;
+  }
+
+  .top-section_form_bg{
+    background-color: #e2e2e2d1;
+    /* opacity: 0.8; */
+    border-radius: 0.2rem;
+  }
+  .form-group{
+    margin-top: 1rem;
+  }
+
+  .treanding-search_btn{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 2px 8px;
+  }
+
+  .form-placeholder-icon{
+    font-family:Arial,FontAwesome ;
+  }
+  .top-content_position{
+    height: 100%;
+  }
+
+  .black-shade:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.3);
+    opacity:1;
+}
+
+.top-content-z_index{
+  z-index: 2;
+}
+
+.checked {
+  color: orange;
+}
+
+.featured-ads_card_button{    padding: 1px 15px;
+  background: #d3d3d39e;
+  border-radius: 19px;}
+.featured-ads_card_heart_icon{padding: 4px;
+  background: #d3d3d366;
+  border-radius: 20px;
+  color: #007bff;}
+
+  .add-section_bg_color{
+    background: #80808014;
+  }
+
+  body{
+    font-family: adelle,serif;
+    line-height: 1.5;
+    -webkit-font-feature-settings: "lnum";
+    font-feature-settings: "lnum";
+
   }
