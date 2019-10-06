@@ -1,0 +1,12 @@
+.top-bg-image{
+    background-image: url("../images/bg.jpg");
+    height: 65vh;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-verticalLine {
+   border-left: 1px solid white;
+   /* height: 2vh; */
+   vertical-align: -moz-middle-with-baseline;
+  }

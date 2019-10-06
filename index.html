@@ -1,21 +1,227 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Title</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- font awsome 4-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- local css -->
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+    />
   </head>
-  <body>
+  <style>
+    .abs-center-x {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  </style>
 
-      
+  <body>
+    <!-- top section -->
+    <section>
+        <div class="top-bg-image">
+            <div class="container ">
+                <!-- navbar  -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent">
+                  <div class="container">
+                    <a href="/" class="navbar-brand text-light">SWITCHME</a>
+                    <button
+                      class="navbar-toggler float-right"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#navbar9"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- collapsebale link -->
+                    <div class="navbar-collapse collapse" id="navbar9">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="//codeply.com">Ads</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><div class="dropdown open">
+                              <button class=" text-light dropdown-toggle bg-transparent" type="button" id="aboutId" data-toggle="dropdown" aria-haspopup="true"
+                                      aria-expanded="false">
+                                          About
+                                      </button>
+                              <div class="dropdown-menu" aria-labelledby="aboutId">
+                                  <button class="dropdown-item text-light" href="#">test</button>
+                                  <button class="dropdown-item disabled text-light" href="#">test2</button>
+                              </div>
+                          </div></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-light mr-5" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="navbar-verticalLine"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-light ml-2" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="#" class="btn btn-primary" role="button">Register</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+                <div class="row">
+                  <div class="row">
+                    <h1 class="text-light">Welcome To SwitchMe</h1>
+                  </div>
+                  <div class="row">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3"></div>
+                  </div>
+                  <div class="row">
+                    <p>treanding Search</p>
+                    <a name="" id="" class="btn btn-primary" href="#" role="button"></a>
+                    <a name="" id="" class="btn btn-primary" href="#" role="button"></a>
+                    <a name="" id="" class="btn btn-primary" href="#" role="button"></a>
+                    <a name="" id="" class="btn btn-primary" href="#" role="button"></a>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+   
+    
+
+    <!-- ads -->
+    <section>
+      <div class="container">
+        <div class="row">Featured Ads</div>
+        <div class="row">
+          <div class="card text-left">
+            <img class="card-img-top" src="holder.js/100px180/" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Title</h4>
+              <p class="card-text">Body</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- popolar categories -->
+    <section>
+      <div class="container">
+        <div class="row"></div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- treanding today -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="row"></div>
+          <div class="row"></div>
+          <div class="row"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our blog -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="row"></div>
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+          </div>
+          <div class="row"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- newsletter -->
+    <section>
+      <div class="container">
+        <div class="row"></div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+        </div>
+        <div class="row"></div>
+      </div>
+    </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
