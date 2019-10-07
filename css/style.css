@@ -71,3 +71,17 @@
     font-feature-settings: "lnum";
 
   }
+
+  .text-blue-color{
+    color: #007bff;
+  }
+
+  hr.blue_bar {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+  }
+
+  .categories-icon_pr{
+    font-size: 3rem;
+    color: #007bff;
+  }
